@@ -1,0 +1,348 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cute honey bunny",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyNameIsIntent",
+                    "slots": [
+                        {
+                            "name": "Name",
+                            "type": "AMAZON.GB_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "call me {Name}",
+                        "you can call me {Name}",
+                        "i am {Name}",
+                        "i'm {Name}",
+                        "my name is {Name}"
+                    ]
+                },
+                {
+                    "name": "ILoveYouIntent",
+                    "slots": [],
+                    "samples": [
+                        "I love you so much",
+                        "I love you"
+                    ]
+                },
+                {
+                    "name": "EasterEggIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me about the easter egg",
+                        "show me the easter egg",
+                        "give me an easter eg",
+                        "easter egg"
+                    ]
+                },
+                {
+                    "name": "YouAreIntent",
+                    "slots": [
+                        {
+                            "name": "very",
+                            "type": "POSITIVE_ADVERBS"
+                        },
+                        {
+                            "name": "cool",
+                            "type": "PERSON_ADJECTIVES"
+                        }
+                    ],
+                    "samples": [
+                        "You are a {cool} person",
+                        "You are {cool}",
+                        "You are {very} {cool}"
+                    ]
+                },
+                {
+                    "name": "BodyIntent",
+                    "slots": [
+                        {
+                            "name": "body",
+                            "type": "BODY_PARTS"
+                        },
+                        {
+                            "name": "very",
+                            "type": "POSITIVE_ADVERBS"
+                        },
+                        {
+                            "name": "pretty",
+                            "type": "PRETTY_ADJECTIVES"
+                        }
+                    ],
+                    "samples": [
+                        "Your {body} is {very} {pretty}",
+                        "Your {body} are {very} {pretty}",
+                        "Your {body} is {pretty}",
+                        "Your {body} are {pretty}",
+                        "I like your {body}",
+                        "I like your {pretty} {body}",
+                        "I like your {very} {pretty} {body}",
+                        "I love your {body}",
+                        "I love your {pretty} {body}",
+                        "I love your {very} {pretty} {body}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "PERSON_ADJECTIVES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "cool"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "awesome"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beautiful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pretty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "talented"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "smart"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "intelligent"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "witty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "classy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "strong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "motivated"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hard working"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "determined"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "funny"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "charming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inspiring"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "independent"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "PRETTY_ADJECTIVES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pretty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beautiful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "graceful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cute"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elegant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lovely"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seducing"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "POSITIVE_ADVERBS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "very"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "really"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "extremely"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "incredibly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "super"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "unimaginably"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "BODY_PARTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "body"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "face"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nose"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eyes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ears"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "butt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "legs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "feet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cheeks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "voice"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "laugh"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

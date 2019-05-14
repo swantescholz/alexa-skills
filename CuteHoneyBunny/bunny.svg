@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="143.77321mm"
+   height="145.63995mm"
+   viewBox="0 0 509.43263 516.04708"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bunny.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="116.48716"
+     inkscape:cy="225.5436"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-513.28369,12.499861)">
+    <g
+       id="g4144"
+       transform="matrix(2.8133561,0,0,2.1876134,210.9839,-598.01943)">
+      <ellipse
+         transform="matrix(0.94757217,-0.31954183,0.31954183,0.94757217,0,0)"
+         ry="85.862968"
+         rx="37.880722"
+         cy="387.2424"
+         cx="36.249195"
+         id="path4136"
+         style="fill:#43423e;fill-opacity:1;stroke:#000000;stroke-width:10.89999962;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="fill:#43423e;fill-opacity:1;stroke:#000000;stroke-width:10.89999962;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4138"
+         cx="-338.97025"
+         cy="260.71027"
+         rx="37.880722"
+         ry="85.862968"
+         transform="matrix(-0.94757217,-0.31954183,-0.31954183,0.94757217,0,0)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:145.19752502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="480.39603"
+       y="572.04468"
+       id="text4140"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1411337,0.87632149)"><tspan
+         sodipodi:role="line"
+         id="tspan4142"
+         x="480.39603"
+         y="572.04468"
+         style="font-size:181.49688721px">CHB</tspan></text>
+  </g>
+</svg>
